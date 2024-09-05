@@ -1,7 +1,7 @@
 const { z } = require('zod');
 const bookModel = require('../models/book.model');
 
-// I have used Zod schemas for a more cleaner code
+// I have used Zod schemas for input validation so that code looks cleaner
 const bookSchema = z.object({
   title: z.string().min(1, "Title is required"),
   author: z.string().min(1, "Author is required"),
