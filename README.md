@@ -31,14 +31,15 @@ Install dependencies
 Start the server
 
 ```bash
-  npm app.js
+  node app.js
 ```
 
 ## Tech used
 
-node.js
-Express
-myslq2
+node.js runtime
+Express backend framework
+myslq2 as ORM
+zod for input validation
 
 ## Environment Variables
 
@@ -55,6 +56,7 @@ replace the variables with your data
 
 
 ## Db setup
+Make sure you have MySQL installed
 
 CREATE DATABASE bookstore;
 USE bookstore;
