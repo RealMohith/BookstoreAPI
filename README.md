@@ -1,7 +1,7 @@
 
 # Bookstore api
 
-A brief description of what this project does and who it's for
+Building a Simple API for a Bookstore 
 
 
 ## overview
@@ -34,6 +34,11 @@ Start the server
   npm app.js
 ```
 
+## Tech used
+
+node.js
+Express
+myslq2
 
 ## Environment Variables
 
